@@ -20,17 +20,17 @@ while (!ok)
 switch (number)
 {
     case 1:
-        reflectionHelper.GetNonStaticPublicClassMemberMethodWithLargestArgumentList(@"../../../../ClassLibrary1");
+        reflectionHelper.GetNonStaticPublicClassMemberMethodWithLargestArgumentList(@"../../../../ClassLibrary1.dll");
         break;
     case 2:
-        reflectionHelper.FindMethodWithLocalVariablesOfTypeIntAndBool(@"../../../../ClassLibrary2");
+        reflectionHelper.FindMethodWithLocalVariablesOfTypeIntAndBool(@"../../../../ClassLibrary2.dll");
         break;
     case 3:
-        reflectionHelper.GetTypeThatImplementsIEnumerable(@"../../../../ClassLibrary1");
+        reflectionHelper.GetTypeThatImplementsIEnumerable(@"../../../../ClassLibrary1.dll");
         break;
     case 4:
         break;
-        reflectionHelper.GetTypeThatHasNestedTypeInSpanish(@"../../../../ClassLibrary2");
+        reflectionHelper.GetTypeThatHasNestedTypeInSpanish(@"../../../../ClassLibrary2.dll");
 }
 
 
